@@ -5,6 +5,7 @@
   font-family: 'Domine';
   src: url('domine.ttf');
 }
+
 @font-face {
   font-family: 'Inter';
   src: url('inter.ttf');
@@ -12,6 +13,7 @@
 
 *
   font-family 'Domine', serif
+
 
 section
   width 100%
@@ -21,11 +23,8 @@ section
   justify-content center
   align-items center
 
-div.container
-  width 900px;
-  max-width calc(100vw - 2em);
-
-section > div.container > h2
+  > div.container > h2
+    margin 0
     font-size 3rem
     margin-bottom 0.2em
     color transparent
@@ -40,3 +39,8 @@ section > div.container > h2
       border-radius .03em
       margin-top .1em
       background $p-green
+
+div.container
+  width 900px;
+  max-width calc(100vw - 2em);
+  padding 2rem 0;

@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     fontawesome: {
         component: 'fa',
         icons: {
-            solid: [],
+            solid: ['arrow-up-right-from-square'],
             regular: ['file-lines'],
             brands: ['github', 'linkedin']
         }

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type {TimelineItem} from "~/types/types";
+import TimelineElement from "~/components/TimelineElement.vue";
 
 const props = defineProps<{
   items: TimelineItem[]
@@ -8,20 +9,16 @@ const props = defineProps<{
 </script>
 
 <template>
-  <section class="timeline-section">
-    <!-- Professional Experience -->
-    <div class="container">
-      <h2 class="section-title">Professional experience</h2>
-
-      <div class="timeline professional">
-        <TimelineItem v-for="item in items" :key="item.title" :item="item"/>
-      </div>
-
+    <div class="timeline">
+      <TimelineElement v-for="item in items" :key="item.title" :item="item"/>
     </div>
-  </section>
 </template>
 
 <style scoped lang="stylus">
-@import '../assets/styles/variables.styl'
+
+div.timeline
+  display flex
+  flex-direction column
+  gap 1.5rem
 
 </style>

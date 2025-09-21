@@ -10,9 +10,9 @@ let _props = defineProps({
     required: true
   },
   icon: {
-    type: String,
+    type: [Object, Array, String],
     required: false,
-    default: ''
+    default: null
   }
 })
 
@@ -20,7 +20,7 @@ let _props = defineProps({
 
 <template>
   <a :href="href" target="_blank" rel="noopener noreferrer">
-    <fa :icon="icon"></fa>
+    <fa v-if="icon" :icon="icon" class="icon"></fa>
     {{text}}
   </a>
 </template>
@@ -32,18 +32,18 @@ a
   display flex
   align-items center
   text-decoration none
-  background-color $sc-orange-lighter
-  color $sc-orange
+  background-color $c-pink-lighter
+  color $c-pink
   padding 0.4rem .6rem
   border-radius 0.2rem
   transition background-color, color 0.1s ease-in-out
 
   &:hover
-    background-color $sc-orange-light
-    color $sc-orange-dark
+    background-color $c-pink-light
+    color $c-pink-dark
 
-  fa-icon
-    margin-right 0.5rem
-    font-size 1.2rem
+  .icon
+    margin-right .4rem
+    font-size 1.1em
 
 </style>

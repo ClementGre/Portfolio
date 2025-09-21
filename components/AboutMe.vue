@@ -19,9 +19,9 @@ import LinkButton from "~/components/LinkButton.vue";
       </p>
 
       <div class="links">
-        <LinkButton text="GitHub" icon="github" href="https://github.com/ClementGre"/>
-        <LinkButton text="Download my resume" icon="file-lines" href="/resume.pdf"/>
-        <LinkButton text="LinkedIn" icon="linkedin" href="https://www.linkedin.com/in/cl%C3%A9ment-grennerat-92808a214/"/>
+        <LinkButton text="GitHub" :icon="['fab', 'github']" href="https://github.com/ClementGre"/>
+        <LinkButton text="Download my resume" :icon="['far', 'file-lines']" href="/resume.pdf"/>
+        <LinkButton text="LinkedIn" :icon="['fab', 'linkedin']" href="https://www.linkedin.com/in/cl%C3%A9ment-grennerat-92808a214/"/>
       </div>
     </div>
   </section>
@@ -32,7 +32,6 @@ import LinkButton from "~/components/LinkButton.vue";
 
 section
   background-color white
-  padding 20px 0
 
   .description
     color $p-green-darker
@@ -46,7 +45,7 @@ section
   .links
     margin-top 1.5rem
     display flex
-    gap 1rem
+    gap 1.2em
     flex-wrap wrap
 
 </style>

@@ -11,7 +11,8 @@
       </h1>
       <div class="divider"></div>
       <p class="subtitle">
-        Computer engineering student at INSA Lyon
+        Full-Stack Developer & INSA Lyon CpE Student
+        <span>Bridging Code, Infrastructure, and Leadership</span>
       </p>
     </div>
   </header>
@@ -28,7 +29,7 @@ header
   color $p-green
   font-size clamp(3rem, 6vw, 4.6rem)
 
-  background /*linear-gradient(hsla(0, 0, 0, .5) 0%, hsla(0, 0, 0, 0) 10%, hsla(0, 0, 0, 0) 100%),*/ linear-gradient($bg-light-trans, $bg-light-trans), url('../public/landing-bg.svg') , $bg-white
+  background linear-gradient($bg-light-trans, $bg-light-trans), url('../public/landing-bg.svg') , $bg-white
   background-size cover
   box-shadow inset 0 0 40px hsla(0, 0%, 0%, .5)
   display flex
@@ -66,5 +67,12 @@ header
   line-height 1
   margin 0
   text-shadow 0 0 .04em hsla(0, 0%, 70%, 1.0)
+
+  span
+    color $p-green-darker
+    font-size .75em
+    font-weight 300
+    display block
+    margin-top .6em
 
 </style>

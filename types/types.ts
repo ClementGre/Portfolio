@@ -1,13 +1,13 @@
 export interface TimelineItem {
-    year: string
+    start: string
+    end: string | null
+    duration: string | null
     title: string
-    company: string
+    icon_path: string
     description: string
     tags: string[]
     links: {
-        website?: string
-        github?: string
-        tutorial?: string
-    }
-    icon: string
+        name: string
+        url: string
+    }[]
 }

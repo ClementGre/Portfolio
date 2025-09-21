@@ -6,6 +6,8 @@
   <HomeHeader/>
   <AboutMe/>
   <ProfesionalExperience/>
+  <ITProjects/>
+  <MakerProjects/>
   <Footer/>
 </template>
 
