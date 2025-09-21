@@ -3,11 +3,10 @@
 </script>
 
 <template>
-  <HomeHeader />
-  <AboutMe />
-  <Timeline />
-  <Footer />
-  <div style="height: 100vh"></div>
+  <HomeHeader/>
+  <AboutMe/>
+  <ProfesionalExperience/>
+  <Footer/>
 </template>
 
 <style scoped>

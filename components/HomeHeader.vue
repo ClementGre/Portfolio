@@ -4,40 +4,67 @@
 
 <template>
   <header>
-    <div class="hook-container absolute top-0 w-screen">
-      <div class="hook flex-col items-left justify-center h-full max-w-2xl content-center p-20">
-        <h1>
-          Hey, I’m <span>Clément Grennerat</span>
-        </h1>
-        <hr class=""/>
-        <p class="">
-          Computer Engineering Student at INSA Lyon
-        </p>
-      </div>
+    <div class="container">
+      <h1 class="greeting">
+        Hey,<br>
+        I’m <span class="name">Clément<br>Grennerat</span>
+      </h1>
+      <div class="divider"></div>
+      <p class="subtitle">
+        Computer engineering student at INSA Lyon
+      </p>
     </div>
   </header>
 </template>
 
 <style scoped lang="stylus">
+@import '../assets/styles/variables.styl'
 
 header
-  z-index 40
-  background-color hsla(0, 0%, 96%, 1.0)
-  font-family 'Domine'
+  height 600px
+  max-height 100vh
+  min-height 450px
 
-header > .background-container
-  width 100vw
-  height 100vh
+  color $p-green
+  font-size clamp(3rem, 6vw, 4.6rem)
 
-header > .hook-container > .hook
-  text-shadow 0 0 10px rgba(0, 0, 0, .5)
+  background /*linear-gradient(hsla(0, 0, 0, .5) 0%, hsla(0, 0, 0, 0) 10%, hsla(0, 0, 0, 0) 100%),*/ linear-gradient($bg-light-trans, $bg-light-trans), url('../public/landing-bg.svg') , $bg-white
+  background-size cover
+  box-shadow inset 0 0 40px hsla(0, 0%, 0%, .5)
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
 
 
-@media (max-width: 768px)
-  header > .hook-container > .hook
-    padding 0 20px
+.greeting
+  font-size 1em
+  font-weight 500
+  line-height 1.1
+  margin 0
+  text-shadow 0 0 .04em hsla(0, 0%, 70%, 1.0)
 
-  header > .border-text-container
-    display none
+  .name
+    color $p-green-dark
+    font-weight 700
+
+  &:after
+    content ''
+    display block
+    width 1.2em
+    height .06em
+    border-radius .03em
+    margin-top .1em
+    margin-bottom .2em
+    background-color $p-green-dark
+    text-shadow 0 0 .04em hsla(0, 0%, 70%, 1.0)
+
+.subtitle
+  font-size .35em
+  color $p-green-dark
+  font-weight 400
+  line-height 1
+  margin 0
+  text-shadow 0 0 .04em hsla(0, 0%, 70%, 1.0)
 
 </style>
