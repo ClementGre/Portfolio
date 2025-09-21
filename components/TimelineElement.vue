@@ -37,7 +37,7 @@ const props = defineProps<{
           {{item.description}}
         </p>
       </div>
-      <div class="buttons">
+      <div class="buttons" v-if="item.links && item.links.length > 0">
         <LinkButton v-for="link in item.links" :key="link.url" :href="link.url" :icon="'arrow-up-right-from-square'" :text="link.text"/>
       </div>
     </div>
@@ -147,6 +147,8 @@ div.item
     .description
       line-height 1.4em
       color red
+      p
+        margin-bottom 0
 
     .buttons
       margin-top 1rem

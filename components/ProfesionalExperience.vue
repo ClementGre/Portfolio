@@ -3,13 +3,51 @@
 const items = [
   {
     start: '2024',
-    end: '2025',
+    end: '2027',
     duration: null,
-    title: 'Wooden Onewheel',
-    icon_path: 'icons/onewheel.jpg',
-    description: 'A single-wheeled all-terrain vehicle — because why not? Handcrafted with wood, a custom spot-welded battery pack, and a dashboard powered by an STM32 microcontroller and custom PCB. Equal parts engineering challenge and absurd fun.',
-    tags: ['Woodworking', 'Electronics', 'Spot welding', 'Arc welding', 'PCB routing'],
-    links: [],
+    title: 'INSA Lyon - Computer Engineering',
+    icon_path: 'icons/insal.jpg',
+    description: 'INSA Lyon – one of France’s most prestigious grandes écoles in engineering, with a leading computer science department. Its generalist engineering program combines technical depth with team-driven projects, preparing students to tackle real-world tech challenges.',
+    tags: ['Software engineering', 'UML', 'AGILE', 'SGBD', 'Networks', 'System programming', 'Compilers', 'Distributed Infrastructures', 'Probabilities & Statistics', 'Algorithms'],
+    links: [
+      {
+        text: 'Department website',
+        url: 'https://if.insa-lyon.fr/en'
+      }
+    ],
+  },
+  {
+    start: '2025',
+    duration: '2 months',
+    title: 'Intern in HPC scheduling',
+    icon_path: 'icons/inria.svg',
+    description: 'Built the core of a high-performance cluster scheduler in Rust during a 2-month internship at INRIA. My code fully reimplemented OAR3’s features, achieving 10-100x speedups over the original Python version, proving Rust’s potential for HPC workloads.',
+    tags: ['Rust', 'HPC', 'Python'],
+    links: [
+      {
+        text: 'GitHub Open Source Code',
+        url: 'https://github.com/oar-team/oar-scheduler-redox'
+      },
+      {
+        text: 'Research team website',
+        url: 'https://team.inria.fr/datamove/'
+      }
+    ],
+  },
+  {
+    start: '2022',
+    end: '2024',
+    duration: null,
+    title: 'INSA Lyon - Initial Engineering Training Program',
+    icon_path: 'icons/insal.jpg',
+    description: 'Achievement: Ranked in the top 10% of the class',
+    tags: ['Mathematics', 'Physics', 'Mechanics', 'CAD', 'Sustainability'],
+    links: [
+      {
+        text: 'School website',
+        url: 'https://www.insa-lyon.fr/en/'
+      }
+    ],
   },
 ]
 
