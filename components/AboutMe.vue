@@ -9,8 +9,8 @@ import LinkButton from "~/components/LinkButton.vue";
       <h2 class="title">About me</h2>
       <p class="description">
         <span>
-          Self-taught developer with <b>6+ years of experience</b> in software, automation, and system administration.
-          Passionate about <b>DevOps</b>, <b>infrastructure</b>, and <b>open-source</b> – I create and <b>maintain projects used by thousands</b>.
+          Self-taught developer & CS Student with <b>6+ years of experience</b> in software and system administration.
+          Passionate about <b>infrastructure</b> and <b>open-source</b> – I create and <b>maintain projects used by thousands</b>.
           As <b>Head of IT for my student union</b>, I <b>lead teams</b>, deploy <b>critical solutions</b>, and adapt quickly to new challenges.
         </span>
         <span>

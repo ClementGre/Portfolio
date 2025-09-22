@@ -11,7 +11,7 @@
       </h1>
       <div class="divider"></div>
       <p class="subtitle">
-        Full-Stack Developer & INSA Lyon CpE Student
+        Computer Science Student at INSA Lyon
         <span>Bridging Code, Infrastructure, and Leadership</span>
       </p>
     </div>

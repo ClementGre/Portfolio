@@ -5,10 +5,10 @@ const items = [
     start: '2024',
     end: '2027',
     duration: null,
-    title: 'INSA Lyon - Computer Engineering',
+    title: 'INSA Lyon - Computer Science',
     icon_path: 'icons/insal.jpg',
     description: 'INSA Lyon – one of France’s most prestigious grandes écoles in engineering, with a leading computer science department. Its generalist engineering program combines technical depth with team-driven projects, preparing students to tackle real-world tech challenges.',
-    tags: ['Software engineering', 'UML', 'AGILE', 'SGBD', 'Networks', 'System programming', 'Compilers', 'Distributed Infrastructures', 'Probabilities & Statistics', 'Algorithms'],
+    tags: ['Software engineering', 'UML', 'AGILE', 'DBMS', 'Networks', 'System programming', 'Compilers', 'Distributed Infrastructures', 'Probabilities & Statistics', 'Algorithms'],
     links: [
       {
         text: 'Department website',
@@ -31,6 +31,21 @@ const items = [
       {
         text: 'Research team website',
         url: 'https://team.inria.fr/datamove/'
+      }
+    ],
+  },
+  {
+    start: '2024',
+    end: '2026',
+    duration: null,
+    title: 'Student Union - Head of IT',
+    icon_path: 'icons/sia.svg',
+    description: 'I am the IT Team Lead at the student Union, managing a team of about a dozen people. Overseeing BareMetal, Kubernetes, and Docker infrastructure. Handling CI and scaling of associative services. Experience in project management, DevOps, and system administration.',
+    tags: ['Docker', 'System Administration', 'Gitlab CI', 'Django'],
+    links: [
+      {
+        text: 'Website',
+        url: 'https://sia.asso-insa-lyon.fr'
       }
     ],
   },
