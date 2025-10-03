@@ -21,7 +21,7 @@ import LinkButton from "~/components/LinkButton.vue";
       <div class="links">
         <LinkButton text="GitHub" :icon="['fab', 'github']" href="https://github.com/ClementGre"/>
         <LinkButton text="Download my resume" :icon="['far', 'file-lines']" href="/Clement_Grennerat_resume.pdf"/>
-        <LinkButton text="LinkedIn" :icon="['fab', 'linkedin']" href="https://www.linkedin.com/in/cl%C3%A9ment-grennerat-92808a214/"/>
+        <LinkButton text="LinkedIn" :icon="['fab', 'linkedin']" href="https://www.linkedin.com/in/clement-gre/"/>
       </div>
     </div>
   </section>
