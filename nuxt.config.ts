@@ -10,6 +10,14 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
+            script: [
+                {
+                    src: 'https://ackee.clgr.io/jquerydom.js',
+                    async: true,
+                    'data-ackee-server': 'https://ackee.clgr.io',
+                    'data-ackee-domain-id': '47efb994-ddae-49a6-b9ff-c433ae614ede'
+                }
+            ]
         }
     },
 
