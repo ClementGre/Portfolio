@@ -55,7 +55,7 @@ const items: TimelineItem[] = [
       },
       {
         text: 'Microsoft Store',
-        url: 'https://apps.microsoft.com/detail/9msx91wqcm2v?mode=direct'
+        url: 'https://apps.microsoft.com/detail/9msx91wqcm2v?hl=en-US&gl=US'
       }
     ],
   },
