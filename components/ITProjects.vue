@@ -9,33 +9,34 @@ const items: TimelineItem[] = [
     duration: 'wip',
     title: 'Archypix',
     icon_path: null,
-    description: 'An efficient cloud based picture manager that supports automatic grouping of pictures into custom arrangements, while allowing users to share groups together. Still a work in progress.',
+    description: 'Federated, self-hostable photo library: tag-based organization, cross-instance sharing, and WebDAV-exposed tag hierarchies. Still a work in progress.',
     tags: ['Rust', 'RestAPI', 'Nuxt', 'VueJS', 'S3'],
     links: [
       {
-        text: 'GitHub (Rust backend)',
-        url: 'https://github.com/Archypix/archypix-app-back'
+        name: 'GitHub',
+        url: 'https://github.com/ClementGre/Archypix'
       },
       {
-        text: 'GitHub (Nuxt frontend)',
-        url: 'https://github.com/Archypix/archypix-app-front'
+        name: 'Website',
+        url: 'https://archypix.com'
       }
     ],
   },
   {
     start: '2024',
     end: '2026',
+    duration: null,
     title: 'INSA Utils',
     icon_path: 'icons/insa-utils.jpg',
     description: 'A collection of tools to simplify daily life at INSA: shared to-do lists, restaurant menus, collaborative link sharing, and more. Built by students, for students.',
     tags: ['PHP'],
     links: [
       {
-        text: 'GitHub',
+        name: 'GitHub',
         url: 'https://github.com/ClementGre/insa-utils'
       },
       {
-        text: 'Website`',
+        name: 'Website',
         url: 'https://insa-utils.fr'
       }
     ],
@@ -50,11 +51,11 @@ const items: TimelineItem[] = [
     tags: ['C#', 'UWP', 'WinUI'],
     links: [
       {
-        text: 'GitHub',
+        name: 'GitHub',
         url: 'https://github.com/ClementGre/ThreeFingerDragOnWindows'
       },
       {
-        text: 'Microsoft Store',
+        name: 'Microsoft Store',
         url: 'https://apps.microsoft.com/detail/9msx91wqcm2v?hl=en-US&gl=US'
       }
     ],
@@ -69,15 +70,15 @@ const items: TimelineItem[] = [
     tags: ['Java', 'JavaFX'],
     links: [
       {
-        text: 'Website',
+        name: 'Website',
         url: 'https://pdf4teachers.org'
       },
       {
-        text: 'GitHub',
+        name: 'GitHub',
         url: 'https://github.com/ClementGre/PDF4Teachers'
       },
       {
-        text: 'Tutorial',
+        name: 'Tutorial',
         url: 'https://youtube.com/watch?v=tutorial'
       }
     ],
@@ -92,7 +93,7 @@ const items: TimelineItem[] = [
     tags: ['Android'],
     links: [
       {
-        text: 'GitHub',
+        name: 'GitHub',
         url: 'https://github.com/ClementGre/Monitor-Internetless'
       },
     ],
@@ -107,15 +108,15 @@ const items: TimelineItem[] = [
     tags: ['Java', 'Bukkit', 'MySQL', 'PHP', 'HTML'],
     links: [
       {
-        text: 'GitHub',
+        name: 'GitHub',
         url: 'https://github.com/ClementGre/TntGun-V3.3/'
       },
       {
-        text: 'Website’s GitHub',
+        name: 'Website’s GitHub',
         url: 'https://github.com/ClementGre/TntGun-V3.3-Website'
       },
       {
-        text: 'Tutorial',
+        name: 'Tutorial',
         url: 'https://www.youtube.com/watch?v=TlnMwqFfVYE'
       },
     ],

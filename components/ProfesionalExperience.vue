@@ -11,13 +11,14 @@ const items = [
     tags: ['Software engineering', 'UML', 'AGILE', 'DBMS', 'Networks', 'System programming', 'Compilers', 'Distributed Infrastructures', 'Probabilities & Statistics', 'Algorithms'],
     links: [
       {
-        text: 'Department website',
+        name: 'Department website',
         url: 'https://if.insa-lyon.fr/en'
       }
     ],
   },
   {
     start: '2025',
+    end: null,
     duration: '2 months',
     title: 'Intern in HPC scheduling',
     icon_path: 'icons/inria.svg',
@@ -25,11 +26,11 @@ const items = [
     tags: ['Rust', 'HPC', 'Python'],
     links: [
       {
-        text: 'GitHub Open Source Code',
+        name: 'GitHub Open Source Code',
         url: 'https://github.com/oar-team/oar-scheduler-redox'
       },
       {
-        text: 'Research team website',
+        name: 'Research team website',
         url: 'https://team.inria.fr/datamove/'
       }
     ],
@@ -44,7 +45,7 @@ const items = [
     tags: ['Docker', 'System Administration', 'Gitlab CI', 'Django'],
     links: [
       {
-        text: 'Website',
+        name: 'Website',
         url: 'https://sia.asso-insa-lyon.fr'
       }
     ],
@@ -59,7 +60,7 @@ const items = [
     tags: ['Mathematics', 'Physics', 'Mechanics', 'CAD', 'Sustainability'],
     links: [
       {
-        text: 'School website',
+        name: 'School website',
         url: 'https://www.insa-lyon.fr/en/'
       }
     ],

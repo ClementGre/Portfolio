@@ -38,7 +38,7 @@ const props = defineProps<{
         </p>
       </div>
       <div class="buttons" v-if="item.links && item.links.length > 0">
-        <LinkButton v-for="link in item.links" :key="link.url" :href="link.url" :icon="'arrow-up-right-from-square'" :text="link.text"/>
+        <LinkButton v-for="link in item.links" :key="link.url" :href="link.url" :icon="'arrow-up-right-from-square'" :text="link.name"/>
       </div>
     </div>
     <div class="right">

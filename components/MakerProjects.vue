@@ -23,7 +23,7 @@ const items: TimelineItem[] = [
     tags: ['CAD', 'Steel cutting & bending', '3D printing', 'PCB design', 'embedded C'],
     links: [
       {
-        text: 'Reddit post',
+        name: 'Reddit post',
         url: 'https://www.reddit.com/r/MechanicalKeyboards/comments/1evd0b8/my_first_mechanical_keyboard_tkl_custom_build/'
       },
     ],

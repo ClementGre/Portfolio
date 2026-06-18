@@ -3,7 +3,7 @@ export interface TimelineItem {
     end: string | null
     duration: string | null
     title: string
-    icon_path: string
+    icon_path: string | null
     description: string
     tags: string[]
     links: {
