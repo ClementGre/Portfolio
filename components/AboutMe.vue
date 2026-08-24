@@ -9,12 +9,11 @@ import LinkButton from "~/components/LinkButton.vue";
       <h2 class="title">About me</h2>
       <p class="description">
         <span>
-          Self-taught developer & CS Student with <b>6+ years of experience</b> in software and system administration.
-          Passionate about <b>infrastructure</b> and <b>open-source</b> – I create and <b>maintain projects used by thousands</b>.
-          As <b>Head of IT for my student union</b>, I <b>lead teams</b>, deploy <b>critical solutions</b>, and adapt quickly to new challenges.
+          CS student with <b>6+ years of self-taught experience</b> in software development and system administration.
+          Passionate about <b>infrastructure</b> and <b>open source</b>, I design and <b>maintain projects used by thousands of users</b>.
         </span>
         <span>
-          Seeking a <b>2026 internship</b> where I can leverage my technical depth and cross-functional skills to build <b>robust systems</b> or <b>lead engineering projects</b>.
+          Through various <b>internships</b> and <b>associative roles</b>, I've built strong <b>technical depth</b> complemented by a <b>broad business perspective</b>, deploying critical solutions and leading teams across a wide range of environments.
         </span>
       </p>
 

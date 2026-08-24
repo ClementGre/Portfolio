@@ -7,12 +7,27 @@ const items = [
     duration: null,
     title: 'INSA Lyon - Computer Science',
     icon_path: 'icons/insal.jpg',
-    description: 'INSA Lyon – one of France’s most prestigious grandes écoles in engineering, with a leading computer science department. Its generalist engineering program combines technical depth with team-driven projects, preparing students to tackle real-world tech challenges.',
+    description: 'One of France’s most prestigious grandes écoles in engineering, with a leading computer science department. Its generalist engineering program combines technical depth with team-driven projects, preparing students to tackle real-world tech challenges.',
     tags: ['Software engineering', 'UML', 'AGILE', 'DBMS', 'Networks', 'System programming', 'Compilers', 'Distributed Infrastructures', 'Probabilities & Statistics', 'Algorithms'],
     links: [
       {
         name: 'Department website',
         url: 'https://if.insa-lyon.fr/en'
+      }
+    ],
+  },
+  {
+    start: '2026',
+    end: null,
+    duration: '4 months',
+    title: 'Technology Consultant at Wavestone',
+    icon_path: 'icons/wavestone.svg',
+    description: 'Benchmarked and built a proof-of-concept of observability solutions for LLM inference, and contributed to the homogenization of a major account\'s ITSM processes. This consulting experience broadened my perspective beyond pure technical depth, giving me a holistic understanding of business context and end-user needs.',
+    tags: ['Observability', 'LLM Inference', 'ITSM', 'Consulting', 'Benchmarking'],
+    links: [
+      {
+        name: 'Wavestone website',
+        url: 'https://www.wavestone.com/'
       }
     ],
   },

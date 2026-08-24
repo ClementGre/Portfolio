@@ -9,7 +9,7 @@ const items: TimelineItem[] = [
     duration: null,
     title: 'Wooden Onewheel',
     icon_path: 'icons/onewheel.jpg',
-    description: 'A single-wheeled all-terrain vehicle — because why not? Handcrafted with wood, a custom spot-welded battery pack, and a dashboard powered by an STM32 microcontroller and custom PCB. Equal parts engineering challenge and absurd fun.',
+    description: 'A single-wheeled all-terrain vehicle. Handcrafted with wood, a custom spot-welded battery pack, and a dashboard powered by an STM32 microcontroller and custom PCB. Equal parts engineering challenge and absurd fun.',
     tags: ['Woodworking', 'Electronics', 'Spot welding', 'Arc welding', 'PCB routing'],
     links: [],
   },
@@ -19,7 +19,7 @@ const items: TimelineItem[] = [
     duration: null,
     title: 'Mechanical keyboard',
     icon_path: 'icons/bepoleon.jpg',
-    description: 'My first custom mechanical keyboard: a TKL build with a volume knob, USB hub, OLED screens, and a fingerprint sensor. Designed the PCB from scratch — because off-the-shelf wasn’t enough.',
+    description: 'My first custom mechanical keyboard: a TKL build with a volume knob, USB hub, OLED screens, and a fingerprint sensor. Designed the PCB from scratch, because off-the-shelf wasn’t enough.',
     tags: ['CAD', 'Steel cutting & bending', '3D printing', 'PCB design', 'embedded C'],
     links: [
       {

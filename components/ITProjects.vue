@@ -5,12 +5,12 @@ import type {TimelineItem} from "~/types/types";
 const items: TimelineItem[] = [
   {
     start: '2024',
-    end: null,
-    duration: 'wip',
+    end: '2026',
+    duration: null,
     title: 'Archypix',
-    icon_path: null,
-    description: 'Federated, self-hostable photo library: tag-based organization, cross-instance sharing, and WebDAV-exposed tag hierarchies. Still a work in progress.',
-    tags: ['Rust', 'RestAPI', 'Nuxt', 'VueJS', 'S3'],
+    icon_path: 'icons/archypix.svg',
+    description: 'Federated, self-hostable photo library: tag-based organization, cross-instance sharing, and WebDAV-exposed tag hierarchies.',
+    tags: ['Rust', 'React', 'Postgres', 'S3', 'Redis'],
     links: [
       {
         name: 'GitHub',
